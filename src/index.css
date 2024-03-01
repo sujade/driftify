@@ -1,0 +1,28 @@
+.logo {
+    max-width: 110px;
+}
+
+.title-text {
+    font-size: 130px;
+}
+
+.inverted {
+    background-color: #294A9A;
+    color: white;
+}
+
+.icon-text {
+    font-size: 25px;
+}
+
+.textrow-text {
+    font-size: 25px;
+}
+
+.row-title {
+    font-size: 50px;
+}
+
+.footer-text {
+    font-size: 20px;
+}
