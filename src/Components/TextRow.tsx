@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/Container";
+import {PropsWithChildren} from "react";
 
-interface TextRowProps {
+interface TextRowProps extends PropsWithChildren {
     title: string;
-    children: string;
-    inverted: boolean;
+    inverted?: boolean;
 }
 
 function TextRow ({title, children, inverted}: TextRowProps) {
