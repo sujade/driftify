@@ -1,6 +1,12 @@
 import Container from "react-bootstrap/Container";
 
-function TextRow ({title, children, inverted}) {
+interface TextRowProps {
+    title: string;
+    children: string;
+    inverted: boolean;
+}
+
+function TextRow ({title, children, inverted}: TextRowProps) {
     return (
         <>
         <section className={inverted ? "inverted" : ""}>

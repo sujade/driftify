@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import "bootstrap/dist/css/bootstrap.css"
-import NavBar from "./Components/Navbar/Navbar.jsx";
-import TextRow from "./Components/TextRow.jsx";
-import IconRow from "./Components/IconRow/IconRow.jsx";
-import ReachRow from "./Components/ReachRow/ReachRow.jsx";
-import Footer from "./Components/Footer.jsx";
+import NavBar from "./Components/Navbar/Navbar.tsx";
+import TextRow from "./Components/TextRow.tsx";
+import IconRow from "./Components/IconRow/IconRow.tsx";
+import ReachRow from "./Components/ReachRow/ReachRow.tsx";
+import Footer from "./Components/Footer.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
